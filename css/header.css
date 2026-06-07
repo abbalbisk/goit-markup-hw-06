@@ -70,9 +70,10 @@ font-weight: 700;
 }
 
 .header-nav {
-  display: none;
-  max-width: 320px;
-  
+  max-width: 368px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
  
 }
 .navigation{
@@ -128,6 +129,8 @@ font-weight: 700;
 .mainlogo {
    display: flex;
         padding: 0;
+        margin-right: 120px;
+        
 }
 .header-nav {
   display: flex;
@@ -144,6 +147,8 @@ font-weight: 700;
 .adress-links {
      font-size: 12px;
      padding: 0;
+     line-height: 1.16;
+letter-spacing: 0.04em;
   }
 
   .address{
@@ -176,6 +181,7 @@ font-weight: 700;
     border-radius: 2px;
     
 }
+
 }
   
 @media screen and (min-width: 1158px){
