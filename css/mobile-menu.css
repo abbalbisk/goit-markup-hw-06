@@ -21,7 +21,7 @@
     transform: translateX(100%);
 }
 
- .modal-menu-overlay .is-open {
+.is-open {
      opacity: 1;
      visibility: visible;
      pointer-events: auto;
