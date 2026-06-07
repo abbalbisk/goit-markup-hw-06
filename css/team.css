@@ -6,6 +6,7 @@
   background-color: #fff;
   border-radius: 0 0 4px 4px;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+ margin: 0 auto;
 }
 .team-item h3 {
   font-weight: 500;
@@ -29,8 +30,10 @@
 
 .team-people {
   display: flex;
-  flex-direction: row;
-  gap: 24px;
+  flex-direction: column;
+  gap: 72px;
+  justify-content: space-between;
+  align-content: center;
 }
 
 .team-title {
@@ -39,6 +42,8 @@
 
 .team-info {
   padding: 32px 16px;
+
+    text-align: center;
 }
 .team-info p{
   margin-bottom: 8px;
@@ -78,3 +83,22 @@ fill: #f4f4fd;
 
 
 
+@media screen and (min-width: 768px){
+  
+  .team-people {
+    flex-direction: row;
+        flex-wrap: wrap;
+        column-gap: 24px;
+        row-gap: 64px;
+        justify-content: center;
+}
+}
+
+
+@media screen and (min-width: 1158px){
+  .team-people {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+}

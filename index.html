@@ -49,6 +49,11 @@
             </li>
           </ul>
         </address>
+        <button class="burger-menu" type="button" > 
+          <svg width="24" height="24" class="header-solid-menu">
+                <use href="./images/icons.svg#icon-solid-menu"></use>
+            </svg>
+        </button>
       </div>
     </header>
     <main>
@@ -125,6 +130,7 @@
             <li class="team-item">
               <img
                 src="./images/team-1.jpg"
+                srcset="./images/team-1.jpg 1x, ./images/team-1@2x.jpg 2x"
                 alt="Mark"
                 width="264"
                 height="260"
@@ -183,6 +189,7 @@
             <li class="team-item">
               <img
                 src="./images/team-2.jpg"
+                srcset="./images/team-2.jpg 1x, ./images/team-2@2x.jpg 2x"
                 alt="Tom"
                 width="264"
                 height="260"
@@ -241,6 +248,7 @@
             <li class="team-item">
               <img
                 src="./images/team-3.jpg"
+                srcset="./images/team-3.jpg 1x, ./images/team-3@2x.jpg 2x"
                 alt="Camila"
                 width="264"
                 height="260"
@@ -299,6 +307,7 @@
             <li class="team-item">
               <img
                 src="./images/team-4.jpg"
+                srcset="./images/team-4.jpg 1x, ./images/team-4@2x.jpg 2x"
                 alt="Daniel"
                 width="264"
                 height="260"
@@ -357,14 +366,17 @@
           </ul>
         </div>
       </section>
+
+      <!-- Portfolio -->
       <section id="portfolio" class="section">
         <div class="container">
-          <h2 class="portfolio-title">Our Portfolio</h2>
+          <h2 class="portfolio-title-section">Our Portfolio</h2>
           <ul class="portfolio-section">
             <li class="portfolio-item">
               <div class="portfolio-transform">
                 <img
-                  src="./images/portfolio-1.jpg"
+                  src="./images/portofolio-1.jpg" 
+                  srcset="./images/portofolio-1.jpg 1x, /images/portofolio-1@2x.jpg 2x"
                   alt="portfolio-1"
                   width="360"
                   height="300"
@@ -384,6 +396,7 @@
               <div class="portfolio-transform">
                 <img
                   src="./images/portfolio-2.jpg"
+                  srcset="./images/portfolio-2.jpg 1x, ./images/portfolio-2@2x.jpg 2x"
                   alt="portfolio-2"
                   width="360"
                   height="300"
@@ -403,6 +416,7 @@
               <div class="portfolio-transform">
                 <img
                   src="./images/portfolio-3.jpg"
+                  srcset="./images/portfolio-3.jpg 1x, /images/portfolio-3@2x.jpg 2x"
                   alt="portfolio-3"
                   width="360"
                   height="300"
@@ -422,6 +436,7 @@
               <div class="portfolio-transform">
                 <img
                   src="./images/portfolio-4.jpg"
+                  srcset="./images/portfolio-4.jpg 1x, /images/portfolio-4@2x.jpg 2x"
                   alt="portfolio-4"
                   width="360"
                   height="300"
@@ -441,6 +456,7 @@
               <div class="portfolio-transform">
                 <img
                   src="./images/portfolio-5.jpg"
+                  srcset="./images/portfolio-5.jpg 1x, /images/portfolio-5@2x.jpg 2x"
                   alt="portfolio-5"
                   width="360"
                   height="300"
@@ -460,6 +476,7 @@
               <div class="portfolio-transform">
                 <img
                   src="./images/portfolio-6.jpg"
+                  srcset="./images/portfolio-6.jpg 1x, /images/portfolio-6@2x.jpg 2x"
                   alt="portfolio-6"
                   width="360"
                   height="300"
@@ -647,8 +664,8 @@
                   <use href="./images/icons.svg#icon-vector"></use>
                 </svg>
               </span>
-              I accept the terms and conditions of the
-              <a href="#" class="link-privacy">Privacy Policy</a>
+              <span>I accept the terms and conditions of the
+              <a href="#" class="link-privacy">Privacy Policy</a></span>
             </label>
           </div>
 
@@ -656,5 +673,72 @@
         </form>
       </div>
     </div>
+
+    <!-- #region menu banner -->
+<div class="modal-menu-overlay">
+    <div class="modal-menu">
+        <button type="button" class="modal-close-btn">
+            <svg width="8" height="8" class="modal-close">
+                <use href="./images/icons.svg#icon-close"></use>
+            </svg>
+        </button>
+        <div class="menu-nav-list">
+           <ul class="menu-list">
+               <li>
+                    <a href="./index.html" class="menu-nav-link menu-studio">Studio</a>
+               </li>
+               <li> 
+                    <a href="" class="menu-nav-link">Portfolio</a>
+               </li>
+               <li class="menu-nav"> 
+                    <a href="" class="menu-nav-link">Contacts</a>
+               </li>
+           </ul>
+           <div class="menu-adress-link">
+               <ul class="menu-cont-list">
+                    <li>
+                       <a href="tel:+110001111111" class="menu-adr"> +11 (000) 111-11-11</a>
+                    </li>
+                    <li>
+                       <a href="mailto:info@devstudio.com" class="menu-adr">info@devstudio.com</a>
+                    </li>
+               </ul>
+               <ul class="menu-icons">
+                   <li class="icon-menu-border">
+                       <a href="https://www.instagram.com" target="_blank" class="icon-menu-link">
+                           <svg width="24" height="24">
+                               <use href="./images/icons.svg#icon-instagram"></use>
+                           </svg>
+                       </a>
+                   </li>
+                   <li class="icon-menu-border">
+                        <a href="https://x.com/" target="_blank" class="icon-menu-link">
+                           <svg  width="24" height="24">
+                               <use href="./images/icons.svg#icon-twitter"></use>
+                           </svg>
+                        </a>
+                   </li>
+                   <li class="icon-menu-border">
+                        <a href="https://uk-ua.facebook.com" target="_blank" class="icon-menu-link">
+                            <svg  width="24" height="24">
+                                <use  href="./images/icons.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+                   </li>
+                   <li class="icon-menu-border">
+                        <a href="https://ua.linkedin.com/" target="_blank" class="icon-menu-link">
+                            <svg  width="24" height="24">
+                                <use  href="./images/icons.svg#icon-linkedin"></use>
+                            </svg>
+                        </a>
+                   </li>
+               </ul>
+           </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- #endregion menu banner -->
   </body>
 </html>

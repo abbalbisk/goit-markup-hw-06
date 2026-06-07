@@ -19,6 +19,8 @@ h2 {
   font-weight: 700;
   
 }
+
+
 h1,h2,h3,h4,h5,h6, p {
     margin: 0;
 }
@@ -41,7 +43,7 @@ img {
   padding-right: 15px;
 }
 .section{
- padding: 120px 0 120px 0;
+ padding: 96px 0 96px 0;
 }
 .sr-only {
   position: absolute;
@@ -54,4 +56,21 @@ img {
   clip: rect(0 0 0 0);
   clip-path: inset(100%);
   margin: -1px;
+}
+
+/* Tablet */
+@media screen and (min-width:768px) {
+    .container {
+        max-width: 768px;
+    }
+}
+/* Desktop */
+@media screen and (min-width:1158px) {
+    .container {
+        max-width: 1158px;
+        padding: 0 15px;
+    }
+    .section{
+ padding: 120px 0 120px 0;
+}
 }
