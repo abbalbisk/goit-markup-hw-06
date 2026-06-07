@@ -57,7 +57,10 @@
 @media screen and (min-width:320px) and (min-resolution: 192dpi) {
     .banner {
         background-image:linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-mobile-bg\@2x.jpg);
-    }
+    background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; 
+      }
 }
 
 @media screen and (min-width: 768px){
@@ -72,6 +75,9 @@
       rgba(46, 47, 66, 0.7) 100%
     ),
     url(../images/hero-bg-tab\@1X.jpg), url(../images/hero-bg-tab\@2X.jpg);
+     background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
   .title {
 
@@ -95,7 +101,9 @@ line-height: 1.07;
       rgba(46, 47, 66, 0.7) 100%
     ),
     url(../images/hero-bg.jpeg);
-
+ background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   max-width: 1440px;
   }
 
