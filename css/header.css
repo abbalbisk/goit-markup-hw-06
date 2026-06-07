@@ -129,7 +129,7 @@ font-weight: 700;
 .mainlogo {
    display: flex;
         padding: 0;
-        margin-right: 120px;
+     margin-right: 120px;
         
 }
 .header-nav {
@@ -147,8 +147,8 @@ font-weight: 700;
 .adress-links {
      font-size: 12px;
      padding: 0;
-     line-height: 1.16;
-letter-spacing: 0.04em;
+     line-height: 1.17;      
+    letter-spacing: 0.04em;
   }
 
   .address{
@@ -185,6 +185,9 @@ letter-spacing: 0.04em;
 }
   
 @media screen and (min-width: 1158px){
+  .mainlogo {
+    margin-right: 76px; 
+  }
  .header-nav {
   display: flex;
   align-items: center;
@@ -194,6 +197,8 @@ letter-spacing: 0.04em;
 .adress-links {
      font-size: 16px;
      padding: 0;
+     line-height: 1.5;       
+    letter-spacing: 0.02em;
   }
 .address{
   display: flex;

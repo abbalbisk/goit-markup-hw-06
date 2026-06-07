@@ -1,4 +1,3 @@
-
 .modal-menu-overlay {
     background-color:rgba(46, 47, 66, 0.4);
     position: fixed;
@@ -53,6 +52,11 @@
     flex-direction: column;
     gap: 48px;
  }
+
+/* Виправлено: скидаємо браузерний курсив для тегу address */
+.menu-address {
+    font-style: normal;
+}
 
  .menu-cont-list {
     display: flex;
@@ -111,5 +115,11 @@
 .icon-menu-link {
     fill: #f4f4fd;
     stroke: none;
+}
 
+/* Виправлено: повністю приховуємо мобільне меню на планшетах та десктопах */
+@media screen and (min-width: 768px) {
+    .modal-menu-overlay {
+        display: none !important;
+    }
 }
