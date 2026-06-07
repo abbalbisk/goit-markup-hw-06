@@ -1,4 +1,4 @@
-/* menu banner */
+
 .modal-menu-overlay {
     background-color:rgba(46, 47, 66, 0.4);
     position: fixed;
@@ -21,7 +21,7 @@
     transform: translateX(100%);
 }
 
- .is-open {
+ .modal-menu-overlay .is-open {
      opacity: 1;
      visibility: visible;
      pointer-events: auto;
