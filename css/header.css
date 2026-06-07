@@ -46,15 +46,16 @@ font-weight: 700;
   font-style: normal;
   text-decoration: none;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   color: #434455;
-    padding-top: 24px;
-  padding-bottom: 24px;
-     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
+  
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  padding-top: 0;
+  padding-bottom: 0;
 }
-
 .adress-links:hover, .adress-links:focus {
   color: #404bbf;
 }
@@ -161,6 +162,7 @@ font-weight: 700;
   padding-top: 24px;
   padding-bottom: 24px;
      transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+     padding: 0;
   }
 .links{
   display: flex;
@@ -195,10 +197,11 @@ font-weight: 700;
 
 }
 .adress-links {
-     font-size: 16px;
-     padding: 0;
+   font-size: 16px;
      line-height: 1.5;       
-    letter-spacing: 0.02em;
+     letter-spacing: 0.02em;
+     padding-top: 24px;
+     padding-bottom: 24px;
   }
 .address{
   display: flex;
