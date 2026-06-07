@@ -207,9 +207,10 @@ font-weight: 700;
   flex-direction: row;
   gap: 40px;
 }
+
 .adress-phone {
    padding-top: 24px;
-     padding-bottom: 24px;
+  padding-bottom: 24px;
 }
 .tag-adress {
   margin-left: auto;
