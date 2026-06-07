@@ -29,6 +29,7 @@ font-weight: 700;
   text-decoration: none;
   font-weight: 500;
   position: relative;
+  display: none;
 
 }
 .portfo-links {
@@ -150,6 +151,7 @@ font-weight: 700;
      padding: 0;
      line-height: 1.17;      
     letter-spacing: 0.04em;
+    padding: 0;
   }
 
   .address{
@@ -162,7 +164,7 @@ font-weight: 700;
   padding-top: 24px;
   padding-bottom: 24px;
      transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-     padding: 0;
+     
   }
 .links{
   display: flex;
